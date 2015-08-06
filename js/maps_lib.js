@@ -177,6 +177,10 @@ if ( $("#cbType9").is(':checked')) searchType += "9,";
 if ( $("#cbType10").is(':checked')) searchType += "10,";
 if ( $("#cbType11").is(':checked')) searchType += "11,";
 if ( $("#cbType12").is(':checked')) searchType += "12,";
+if ( $("#cbType13").is(':checked')) searchType += "13,";
+if ( $("#cbType14").is(':checked')) searchType += "14,";
+if ( $("#cbType15").is(':checked')) searchType += "15,";
+if ( $("#cbType16").is(':checked')) searchType += "16,";
 self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
         //-----end of custom filters-----
 
